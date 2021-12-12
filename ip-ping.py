@@ -15,7 +15,7 @@ d4 = term.color_rgb(101, 197, 247)
 d5 = term.color_rgb(129, 210, 252)
 d6 = term.color_rgb(147, 215, 250)
 
-def ipping():
+def ippinger():
     os.system('cls' if os.name == 'nt' else 'clear')
     count = 1
     hostname = input(f"{d2}Ente{d3}r I{d5}P A{d6}d{d1}dress h{d2}ere: " + reset)
@@ -29,4 +29,4 @@ def ipping():
         count +- 1
         time.sleep(.5)
 
-ipping()
+ippinger()
