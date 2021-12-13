@@ -23,9 +23,9 @@ def ippinger():
     while True:
         response = os.system("ping " + hostname + " >nul")
         if response == 0:
-            print(hostname + " Is online!")
+            print(hostname + f" I{d1}s o{d2}nl{d3}ine!")
         else:
-            print(hostname + " Down")
+            print(hostname + f" D{d1}o{d2}wn")
         count +- 1
         time.sleep(.5)
 
